@@ -1,0 +1,22 @@
+{
+  "name": "rate-nexus",
+  "version": "1.0.0",
+  "description": "rate limiter service based on node js",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx ts-node ./src/server.ts",
+    "dev": "nodemon ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pratap shantanu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
+}
